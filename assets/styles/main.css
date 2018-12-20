@@ -1,0 +1,687 @@
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden !important;
+}
+
+a {
+    color: rgb(43,118,208);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: rgba(43,118,208,0.8);
+    text-decoration: underline;
+}
+
+.no-underline:hover {
+    text-decoration-line: none;
+}
+
+.navbar {
+    z-index: 20;
+}
+
+.nav-text {
+    color: rgb(43,118,208);
+}
+
+.nav-text:hover {
+    color: rgba(43,118,208, 0.8);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-h {
+    font-weight: 750;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 767px){
+    .header-1 {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.15), rgba(38,147,164,0.15)), url("../img/vitris-philadephia-header.jpg");
+        background-attachment: fixed;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .header-1 {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.15), rgba(38,147,164,0.15)), url("../img/vitris-philadephia-header.jpg");
+        background-attachment: scroll;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        min-height: 80vh;
+        max-width: 100vw;
+    }
+}
+
+.highlighted-header {
+    background-color: rgba(0, 0, 0, 0.175);
+    font-size: 1rem;
+}
+
+.header-shadow {
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+}
+
+.btn-v-blue {
+    background-color: rgb(43,118,208);
+    color: white;
+}
+
+.btn-v-blue:hover {
+    background-color: rgba(43,118,208, 0.8);
+    color: white;
+}
+
+.btn-blue-outline {
+    color: rgb(43,118,208);
+    border: 1px solid rgb(43,118,208);
+
+}
+
+.btn-blue-outline:hover {
+    background-color: rgb(43,118,208);
+    color: white;
+}
+
+.header-arrow {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.header-arrow:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.vitrisSlides {
+    display: none;
+}
+
+.how-hr {
+    background: rgb(43,118,208);
+    width: 3em;
+    height: .1em;
+}
+
+.how-card {
+    background-color: rgb(43,118,208);
+    color: whitesmoke;
+}
+
+.how-card:hover {
+    cursor: pointer;
+    background-color: #00c9cf;
+    color: whitesmoke;
+}
+
+.how-href:link, .how-href:visited, .how-href:hover, .how-card:active {
+    text-decoration: none;
+    color: black;
+}
+
+.home-product {
+    background: rgb(245,245,245);
+}
+
+.flat-card {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.flat-card:hover {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    background-color: rgba(240,240,240,1);
+    cursor: pointer;
+}
+
+.flat-card-text {
+    text-align: justify !important;
+    color: black;
+    text-decoration: none;
+}
+
+/* Homepage Testimonial Slider */
+.testimonial-item {
+    position: relative;
+    width: 100vw; 
+    bottom: 20%;  
+    color: black; 
+    left: 0%; 
+    right: 0%;
+}
+
+.slide-indicator {
+    background-color: rgba(0,0,0, 0.5) !important;
+}
+
+.slide-indicator.active {
+    background-color: rgb(0,0,0) !important;
+}
+
+.slide-indicator:hover {
+    cursor: pointer;
+}
+
+/* Home Slider end */
+
+.embed-responsive {
+    border: .5rem solid rgb(43,118,208);;
+    border-radius: .25rem;
+}
+
+.v-img-border {
+    border: .5rem solid rgb(43,118,208);;
+    border-radius: .25rem;
+}
+
+.home-phil {
+    background: rgb(245,245,245);
+}
+
+/* Footer */
+
+.v-footer {
+    background-color: rgb(43,118,208);    ;
+    color: rgb(252,254,254);
+}
+
+.v-sub-footer {
+    background-color: rgb(120,130,131);
+    color: rgb(252,254,254);
+}
+
+/* Footer End */
+.footer-text {
+    color: white;
+}
+
+.footer-text:hover {
+    color: aqua;
+}
+
+.list-group-item {
+    padding: .25em !important;
+}
+
+/* Pricing */
+#pricing-cards {
+    background: linear-gradient(rgba(41, 193, 216,.6), rgba(38,147,164,.65)), url("../img/md-bg1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 767px){
+    #pricing-cards {
+        background-attachment: scroll !important;
+    }
+}
+
+@media only screen and (min-width: 767px){
+    .pricing-header {
+        margin-top: 60px;
+        background: rgb(43,118,208);
+        background-attachment: fixed;
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .pricing-header{
+        margin-top: 3em;
+        background: rgb(43,118,208);
+        background-attachment: scroll;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        min-height: 80vh;
+        max-width: 100vw;
+    }
+}
+
+ .card-header {
+    background-color: rgb(43,118,208) !important; 
+ }
+
+ .card-footer {
+    background: rgb(245,245,245);
+ }
+
+.pricing-service {
+    background-color: rgb(245,245,245);
+}
+
+.desc-hr {
+    background: rgb(43,118,208);
+    width: 100px;
+    height: 1px;
+    margin: -1em 0 1em 0;
+}
+
+/* .triangle {
+    height: 0;
+    width: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-bottom: 4em solid #ff4136;
+} */
+
+/* Features */
+.grey-bg {
+    background-color: rgb(245,245,245);
+}
+
+.website-details {
+    background-color: rgb(43,118,208);
+    color: rgb(245,245,245);
+}
+
+@media only screen and (min-width: 767px){
+    .website-builder-head {
+        background: linear-gradient(rgba(41, 193, 216, 0.5), rgba(38,147,164,.5)), url("../img/small-business-owner-relaxed.jpg");
+        background-attachment: fixed;
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .website-builder-head {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.5), rgba(38,147,164,.5)), url("../img/small-business-owner-relaxed.jpg");
+        background-attachment: scroll;
+        background-position: 50% 15%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        min-height: 80vh;
+        max-width: 100vw;
+    }
+}
+
+#small-biz-transition {
+    background: linear-gradient(rgba(41, 193, 216, 0.5), rgba(38,147,164,.5)), url("../img/small-business-woman.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 45vh;
+}
+
+@media only screen and (max-width: 767px){
+    #small-biz-transition {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.5), rgba(38,147,164,.5)), url("../img/small-business-woman.jpg");
+        background-attachment: scroll;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        min-height: 50vh;
+        max-width: 100vw;
+    }
+}
+
+/* Small Businesses */
+/* Home Improvement */
+
+@media only screen and (min-width: 767px){
+    .home-improvement-header {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.15), rgba(38,147,164,0.15)), url("../img/contractor-saw.jpg");
+        background-attachment: fixed;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .home-improvement-header {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.15), rgba(38,147,164,0.15)), url("../img/contractor-saw.jpg");
+        background-attachment: scroll;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        min-height: 60vh;
+        max-width: 100vw;
+    }
+}
+
+/* Agency Services */
+@media only screen and (min-width: 767px){
+    .agency-services-header {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.35), rgba(38,147,164,0.35)), url("../img/agency-staff-brainstorm-2.jpg");
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        min-height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .agency-services-header {
+        margin-top: 3em;
+        background: linear-gradient(rgba(41, 193, 216, 0.15), rgba(38,147,164,0.15)), url("../img/agency-staff-brainstorm-2.jpg");
+        background-attachment: scroll;
+        background-position: center centopter;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        min-height: 80vh;
+        max-width: 100vw;
+    }
+}
+
+/* Blog */
+
+@media only screen and (min-width: 768px) {
+    .blog-card {
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        margin-right: .5rem;
+        margin-left: .5rem;
+        width: 31.75%;
+        max-height: 100%;
+    }
+}
+
+
+.modal-lightbox {
+    max-width: 100% !important;
+}
+
+.blog-link {
+    text-decoration: none;
+    color:  rgb(43,118,208);
+}
+/* Demo & Contact */
+#returnHome {
+    display: none;
+}
+
+.feature-head {
+    background-color: rgb(43,118,208);
+    color: white;
+}
+
+/* About Page */
+.about-head {
+    background: linear-gradient(rgba(41, 193, 216, 0.5), rgba(38,147,164,.5)), url("../img/cropped-team-pic.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 60vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .about-head {
+        background-attachment: scroll !important;
+    }
+
+}
+
+/* Timeline */
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+  }
+  
+  .timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+  }
+  
+  .timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .timeline > li:before,
+  .timeline > li:after {
+    content: " ";
+    display: table;
+  }
+  
+  .timeline > li:after {
+    clear: both;
+  }
+  
+  .timeline > li:before,
+  .timeline > li:after {
+    content: " ";
+    display: table;
+  }
+  
+  .timeline > li:after {
+    clear: both;
+  }
+  
+  .timeline > li > .timeline-panel {
+    width: 46%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  }
+  
+  .timeline > li > .timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+  }
+  
+  .timeline > li > .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+  }
+  
+  .timeline > li > .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #999999;
+    z-index: 1;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+  
+  .timeline-badge.primary {
+    background-color: #2e6da4 !important;
+  }
+  
+  .timeline-badge.success {
+    background-color: #3f903f !important;
+  }
+  
+  .timeline-badge.warning {
+    background-color: #f0ad4e !important;
+  }
+  
+  .timeline-badge.danger {
+    background-color: #d9534f !important;
+  }
+  
+  .timeline-badge.info {
+    background-color: #5bc0de !important;
+  }
+  
+  .timeline-title {
+    margin-top: 0;
+    color: inherit;
+  }
+  
+  .timeline-body > p,
+  .timeline-body > ul {
+    margin-bottom: 0;
+  }
+  
+  .timeline-body > p + p {
+    margin-top: 5px;
+  }
+/* Timeline End */
+
+.philosophy-head {
+    background: linear-gradient(rgba(41, 193, 216, 0.5), rgba(38,147,164,.5)), url("../img/open-source.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 80vh;
+}
+
+@media only screen and (max-width: 767px) {
+    .philosophy-head {
+        background-attachment: scroll !important;
+    }
+}
+
+.cell-phone-repair {
+    height: 55vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../img/cell-phone-repair.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.construction {
+    height: 55vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../img/business-construction.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.computer-repair {
+    height: 55vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../img/computer-repair.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.marketing-agency {
+    height: 55vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../img/marketing-agency.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.financial-advisor {
+    height: 55vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../img/financial-advisor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.real-estate {
+    height: 55vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../img/real-estate.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.personal-coaching {
+    height: 55vh;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url("../img/personal-coaching.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}

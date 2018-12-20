@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-120006992-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="Build the best website for your success. Customers will ">
+    <meta name="google-site-verification" content="e6UewuaWV3-Fw1B4ZkEHazReT5i-zJdjKaMxcHLretw" />
+    <title>Vitris Website Builder | Vitris</title>
+
+    <link rel="icon" href="../../assets/img/vitris-fav.png" type="image/gif">
+
+    <link rel="stylesheet" href="../../assets/venders/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="../../assets/venders/css/animate.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/venders/css/webfonts/fontawesome-all.min.css">
+    <link href="../../assets/styles/main.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top bg-light navbar-expand-md">
+
+        <a class="navbar-brand" href="../../" onclick="ga('send', {
+            hitType: 'event',
+            eventCategory: 'Navbar',
+            eventAction: 'Logo',
+            eventLabel: location.pathname
+        })">
+            <img src="../../assets/img/vitris-full.png" height="30px" alt="">
+        </a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="../../" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Navbar',
+                        eventAction: 'Home',
+                        eventLabel: location.pathname
+                    })">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="../../pricing/" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Navbar',
+                        eventAction: 'Pricing',
+                        eventLabel: location.pathname
+                    })">PRICING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="../../agency-services/" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Navbar',
+                        eventAction: 'Services',
+                        eventLabel: location.pathname
+                    })">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="../../features/" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Navbar',
+                        eventAction: 'Features',
+                        eventLabel: location.pathname
+                    })">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="../../about/" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Navbar',
+                        eventAction: 'About',
+                        eventLabel: location.pathname
+                    })">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-text" href="../../blog/" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Navbar',
+                        eventAction: 'Blog',
+                        eventLabel: location.pathname
+                    })">BLOG</a>
+                </li>
+                <a href="https://portal.tryvitris.com/signup" onclick="ga('send', {
+                    hitType: 'event',
+                    eventCategory: 'Navbar',
+                    eventAction: 'Signup',
+                    eventLabel: location.pathname
+                },{
+                    'transport': 'beacon',
+                    'hitCallback': function(){document.location = 'https://portal.tryvitris.com/signup';}
+                  }
+                );"><button class="btn btn-v-blue btn-raised ml-md-1 mr-md-2 my-2 my-sm-0">Try Vitris</button></a>
+                <a href="https://portal.tryvitris.com/" onclick="ga('send', {
+                    hitType: 'event',
+                    eventCategory: 'Navbar',
+                    eventAction: 'Login',
+                    eventLabel: location.pathname
+                },{
+                    'transport': 'beacon',
+                    'hitCallback': function(){document.location = 'https://portal.tryvitris.com/';}
+                  }
+                );"><button class="btn btn-blue-outline my-2 my-sm-0">Login</button></a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About us heading section -->
+    <section class="py-5 website-builder-head">
+        <div class="container h-100 mt-auto">
+            <div class="row h-100">
+                <div class="col-lg-9 mt-auto mx-auto text-center">
+                    <!-- <h3 class="text-center">Our Team</h3> -->
+                    <h2 class="wow fadeInUp header-shadow">
+                        You have enough problems to worry about. We'll make sure your website isn't one of them.
+                    </h2>
+                    <a class="btn btn-v-blue my-3 mr-2" href="#small-biz-transition" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'CTA Buttons',
+                        eventAction: 'Learn How',
+                        eventLabel: location.pathname
+                    })">
+                        LEARN HOW
+                    </a>
+                    <a class="btn btn-v-blue my-3" href="https://portal.tryvitris.com/signup" onclick="ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'CTA Buttons',
+                        eventAction: 'Signup',
+                        eventLabel: location.pathname
+                    },{
+                        'transport': 'beacon',
+                        'hitCallback': function(){document.location = 'https://portal.tryvitris.com/signup';}
+                      }
+                    );">
+                        GET STARTED
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transition -->
+    <section class="py-5">
+        <div class="container">
+           <div class="row text-center">
+            <div class="col-lg-10 mx-auto">
+                <h3 class="mb-3">Your website is going to be amazing.</h3>
+                <p>
+                    You’ve got something you want to share with the world. Whether it’s the next big product to hit the shelves or just to announce your wedding, your concept demands an online presence. The Vitris website builder is a straightforward and simple way to build a brilliant website and get your idea out there for the world to see. Plus, it's fast — and we’ll prove it.
+                </p>
+            </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- Transition -->
+    <section class="py-5" id="small-biz-transition">
+        <div class="container h-100">
+            <div class="row my-auto">
+                <div class="col-lg-10">
+                        <h3>Don't take our word for,</h3>
+                        <br>
+                        <h3>Take a look at some of our wonderful clients websites.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="pt-5" id="website-builder-portfolio">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://phonerepairpennsauken.com/" target="_blank">
+                        <img src="../../assets/img/phone-repair-pennsauken-thumbnail.png" alt="Phone Repair Pennsauken Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://phonerepairpennsauken.com/" target="_blank" class="btn btn-outline-secondary mb-4">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://fixitfishtown.com" target="_blank">
+                        <img src="../../assets/img/fixitfishtown-thumbnail.png" alt="Fixit Fishtown Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://fixitfishtown.com" target="_blank" class="btn btn-outline-secondary mb-4">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://pennremodel.com/" target="_blank">
+                        <img src="../../assets/img/penn-home-remodel-thumbnail.png" alt="Penn Home Remodeling Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://pennremodel.com/" target="_blank" class="btn btn-outline-secondary mb-4">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://preferredhomeimprovements.net/" target="_blank">
+                        <img src="../../assets/img/preferredhome-thumbnail.png" alt="Preferred Home Improvements Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://preferredhomeimprovements.net/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://championhomebuyer.com/" target="_blank">
+                        <img src="../../assets/img/champion-home-buyer-thumbnail.png" alt="Champion Home Buyer Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://championhomebuyer.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://dwperrotta.com/" target="_blank">
+                        <img src="../../assets/img/dwperrotta-thumbnail.png" alt="DW Perrotta Construction Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://dwperrotta.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://www.repairuphilly.com" target="_blank">
+                        <img src="../../assets/img/repairuphilly-thumbnail.png" alt="RepairU Philly Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://www.repairuphilly.com" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://newyearsphiladelphia.com/" target="_blank">
+                        <img src="../../assets/img/new-years-eve-philadelphia-thumbnail.png" alt="New Years Eve Philadelphia Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://newyearsphiladelphia.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://bryanbuilds.com/" target="_blank">
+                        <img src="../../assets/img/bryan-builds-thumbnail.png" alt="Bryan Builds Construction Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://bryanbuilds.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://akwaabakaribu.com/" target="_blank">
+                        <img src="../../assets/img/akwaadarealestate-thumbnail.png" alt="Akwaaba Real Estate Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://akwaabakaribu.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://finnmccoolsphilly.com/" target="_blank">
+                        <img src="../../assets/img/finn-mccools-thumbnail.png" alt="Finn McCools Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://finnmccoolsphilly.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://platinumbrands.com" target="_blank">
+                        <img src="../../assets/img/platinumbrands-thumbnail.png" alt="Platinum Brands Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://platinumbrands.com" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://liamjphoto.com/" target="_blank">
+                        <img src="../../assets/img/liamphotography-thumbnail.png" alt="Liam J Photography Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://liamjphoto.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://activategtown.com/" target="_blank">
+                        <img src="../../assets/img/activate-gtown-thumbnail.png" alt="Activate LLC Phone Repair Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://activategtown.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://lmadvocateforme.com/" target="_blank">
+                        <img src="../../assets/img/lm-advocate-for-me-thumbnail.png" alt="LM advocate for me Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://lmadvocateforme.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://cellularincsouthphilly.com/" target="_blank">
+                        <img src="../../assets/img/cellular-inc-phoner-repair.png" alt="Cellular Inc Phone Shop Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://cellularincsouthphilly.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <a href="https://jazbrown.com/" target="_blank">
+                        <img src="../../assets/img/jazbrown-thumbnail.png" alt="Jaz Brown Website Thumbnail" class="img-fluid mb-3">
+                    </a>
+                    <a href="https://jazbrown.com/" target="_blank" class="btn btn-outline-secondary mb-5">
+                    View Site
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-3 v-footer">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <div class="list-group list-group-flush">
+                        <h5 class="list-group-item bold mb-1">Vitris</h5>
+                        <a href="../../pricing/" class="list-group-item footer-text">Pricing</a>
+                        <a href="../../features/" class="list-group-item footer-text">Product</a>
+                        <a href="#" class="list-group-item footer-text">Philosophy</a>
+                        <a href="../" class="list-group-item footer-text">About Us</a>
+                        <a href="../../faq/" class="list-group-item footer-text">Help</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="list-group list-group-flush">
+                        <h5 class="list-group-item bold mb-1">Community</h5>
+                        <!-- <a href="#" class="list-group-item footer-text">The Community</a> -->
+                        <a href="#" class="list-group-item footer-text">Our Story</a>
+                        <a href="../../blog/" class="list-group-item footer-text">Blog</a>
+                        <a href="../../under-construction/" class="list-group-item footer-text">Contribute</a>
+                        <a href="../../under-construction/" class="list-group-item footer-text">Press</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="list-group list-group-flush">
+                        <h5 class="list-group-item bold mb-1">Contact</h5>
+                        <a href="../../under-construction/" class="list-group-item footer-text">FAQ</a>
+                        <a href="../../demo/" class="list-group-item footer-text">Get In Touch</a>
+                        <a class="list-group-item">(484) 734-0865</a>
+                        <a class="list-group-item">hi@tryvitris.com</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="list-group list-group-flush">
+                        <h5 class="list-group-item bold mb-1">Visit Us</h5>
+                        <a class="list-group-item">1635 Market Street, Suite 1600</a>
+                        <a class="list-group-item">Philadelphia, Pa 19103</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-light py-3">
+            <div class="row">
+                <div class="col d-none d-md-block mt-auto">
+                    <p class=" ml-4"><a href="../../legal/terms-of-service/" class="footer-text">Terms of Service</a> | <a href="../../legal/privacy-policy/" class="footer-text">Privacy Policy</a></p>
+
+                </div>
+                <div class="col text-center">
+                    <a href="https://www.linkedin.com/company/vitris-wireless-llc/" target="_blank" class="nav-text mr-2"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://www.instagram.com/tryvitris/" target="_blank" class="mr-2"><i class="nav-text fab fa-instagram fa-3x"></i></a>
+                    <a href="https://twitter.com/tryvitris/" target="_blank" class="mr-2"><i class="nav-text fab fa-twitter-square fa-3x"></i></a>
+                    <a href="https://www.facebook.com/tryvitris" target="_blank" class="mr-2"><i class="nav-text fab fa-facebook fa-3x"></i></a>
+                </div>
+                <div class="col d-none d-md-block ml-auto mt-auto">
+                    <p class=" mr-4 float-right">&copy; 2018 Vitris Wireless, LLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../../assets/venders/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../../assets/venders/js/popper.min.js"></script>
+    <script src="../../assets/venders/js/bootstrap-material-design.min.js"></script>
+    <script src="../../assets/venders/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function() { $('body').bootstrapMaterialDesign(); });
+    </script>
+    <script src="../../assets/scripts/smoothscroll.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@graph":
+            [
+            {
+                "@type": "Organization",
+                "url": "https://tryvitris.com",
+                "logo": "https://tryvitris.com/assets/img/vitris-full.png",
+                "contactPoint": [{
+                    "@type": "ContactPoint",
+                    "telephone": "+1-215-595-8457",
+                    "contactType": "Customer Service"
+                }],
+                "sameAs": [
+                    "https://www.facebook.com/tryvitris",
+                    "https://instagram.com/tryvitris",
+                    "https://www.linkedin.com/company/vitris-wireless-llc/",
+                    "https://twitter.com/tryvitris/"
+                ]
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://tryvitris.com",
+                "name" : "Vitris",
+                "image" : "https://tryvitris.com/assets/img/vitris-full.png",
+                "telephone": "+1-215-595-8457",
+                "email": "jack@tryvitris.com",
+                "url": "https://tryvitris.com",
+                "priceRange": "$",
+                "address" : {
+                    "@type" : "PostalAddress",
+                    "streetAddress" : "1635 Market Street",
+                    "addressLocality" : "Philadelphia",
+                    "addressRegion": "PA",
+                    "postalCode": "19103",
+                    "addressCountry": "US"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "39.953300",
+                    "longitude": "-75.168058"
+                },
+                "openingHoursSpecification": [
+                    {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                    ],
+                    "opens": "09:00",
+                    "closes": "21:00"
+                    }
+                ]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://tryvitris.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Features",
+                    "item": "https://tryvitris.com/features/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Website Builder",
+                    "item": "https://tryvitris.com/features/website-builder/"
+                }
+                ]
+            }
+            ]
+            
+        }
+        </script>
+</body>
+</html>
