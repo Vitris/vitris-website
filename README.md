@@ -18,6 +18,9 @@ This is a good, centralized location to post all our research related to web dev
   We should be able to accurately track "in the wild" how quickly our assets are loading on each clients device. This will allow us to prioritize different optimizations of asset deliveries.
   https://developers.google.com/analytics/devguides/collection/analyticsjs/user-timings
   
+  #### Heat Mapping
+  https://medium.com/@CompassRed/how-to-create-a-click-heat-map-for-your-website-using-google-analytics-event-tracking-and-google-f74114084465
+  
   #### URL Building & Tracking
   Google's built an open source url builder. Would be nice to eventually build it into the Vitris app, must be more user friendly.
   https://ga-dev-tools.appspot.com/campaign-url-builder/
