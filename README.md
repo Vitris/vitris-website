@@ -31,6 +31,12 @@ This is a good, centralized location to post all our research related to web dev
   #### HTML Markup
   The usage of meta tags to interface website links thumbnails with other platforms such as iMessage and Facebook: http://blog.avenuecode.com/rich-previews-of-shared-links
   
+  ### Converting Customers
+  The line can sometimes be blurred between utilizing analytics and marketing tactics to increase conversions. Here's a list of marketing tactics on websites to increase conversions.
+  
+  #### Squeeze Pages
+  https://www.leadpages.net/blog/what-is-a-squeeze-page-how-to-make/
+  
   ### Competition
   https://www.eliteonlinemedia.com/
   
