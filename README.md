@@ -37,6 +37,11 @@ This is a good, centralized location to post all our research related to web dev
   #### Squeeze Pages
   https://www.leadpages.net/blog/what-is-a-squeeze-page-how-to-make/
   
+  ### Blog Ideas
+  
+  #### Home Improvement
+  https://quantumdigital.com/#!/content/4-marketing-ideas-home-improvement-contractors
+  
   ### Competition
   https://www.eliteonlinemedia.com/
   
