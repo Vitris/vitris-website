@@ -41,6 +41,7 @@ This is a good, centralized location to post all our research related to web dev
   
   #### Home Improvement
   https://quantumdigital.com/#!/content/4-marketing-ideas-home-improvement-contractors
+  https://www.stargazerdigital.co.uk/10-of-the-best-home-improvement-marketing-ideas/#
   
   ### Competition
   https://www.eliteonlinemedia.com/
