@@ -50,6 +50,9 @@ This is a good, centralized location to post all our research related to web dev
   
   Vitris color scheme https://www.colorhexa.com/2bc8d0
   
+  #### "Include" Nav and Footer to make the site maintenence more scaleable
+  https://stackoverflow.com/questions/18712338/make-header-and-footer-files-to-be-included-in-multiple-html-pages
+  
   #### Prevent Zoom on Mobile
   Select inputs zoom on click on iPhones and maybe all mobile devices. You can set some meta text to prevent this behavior.
   https://stackoverflow.com/questions/6483425/prevent-iphone-from-zooming-in-on-select-in-web-app
